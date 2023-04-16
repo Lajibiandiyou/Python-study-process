@@ -14,7 +14,9 @@ not
 
 ### pass语句
 
-![img](pic\v2-59832e7ddbc7592810ebe5f27923b5e3_r.jpg)
+![img](./pic/v2-59832e7ddbc7592810ebe5f27923b5e3_r.jpg)
+
+
 
 简单而言，pass 是一种空操作（null operation），解释器执行到它的时候，除了检查语法是否合法，什么也不做就直接跳过。
 
