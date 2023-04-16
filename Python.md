@@ -1,5 +1,3 @@
-
-
 ### 布尔运算符
 
 in
@@ -28,7 +26,7 @@ def fun_void():
 fun_void();
 ```
 
-![image-20230416093634428](.\pic\image-20230416093634428.png)
+![image-20230416093634428](./pic/image-20230416093634428.png)
 
 ```python
 def fun_void():
@@ -70,7 +68,7 @@ print('remove Cody')
 print(names);
 ```
 
-<img src="pic\image-20230410095206381.png" alt="image-20230410095206381" style="zoom: 67%;" />
+<img src="./pic/image-20230410095206381.png" alt="image-20230410095206381" style="zoom: 67%;" />
 
 #### 对列表排序, 翻转, 求列表长度
 
@@ -90,7 +88,7 @@ print('列表长度 = ' + str(len(names)));
 
 
 
-![image-20230410100015093](pic\image-20230410100015093.png)
+![image-20230410100015093](./pic/image-20230410100015093.png)
 
 
 
@@ -105,7 +103,7 @@ for name in names:
 print('end of loop');# 这里没有空行, 但是没有缩进了, 所以执行一次
 ```
 
-![image-20230410102359241](pic\image-20230410102359241.png)
+![image-20230410102359241](./pic/image-20230410102359241.png)
 
 #### range()
 
@@ -173,7 +171,7 @@ print(squares_copy_shallow);
 print('its id is ', id(squares_copy_shallow), 'and the first element id of it is ', id(squares_copy_shallow[0]));
 ```
 
-![image-20230410131205778](pic\image-20230410131205778.png)
+![image-20230410131205778](./pic/image-20230410131205778.png)
 
 #### 元组
 
@@ -198,7 +196,7 @@ print(id(arr));
 print(id(arr + (1, 'AA')))
 ```
 
-![image-20230416090818352](pic\image-20230416090818352.png)
+![image-20230416090818352](./pic/image-20230416090818352.png)
 
 ### If 语句
 
@@ -240,7 +238,7 @@ print(car); # 这里for循环应该结束了吧, 但是仍然可以打印输出
 # 
 ```
 
-![image-20230411123846446](pic\image-20230411123846446.png)
+![image-20230411123846446](./pic/image-20230411123846446.png)
 
 #### 检查多个条件
 
@@ -267,7 +265,7 @@ if('D' not in list1):
     print('D isnot in list1');
 ```
 
-![image-20230411124231867](pic\image-20230411124231867.png)
+![image-20230411124231867](./pic/image-20230411124231867.png)
 
 #### 判断列表为空
 
@@ -285,7 +283,7 @@ else:
 print('end of if')
 ```
 
-![image-20230411130633306](pic\image-20230411130633306.png)
+![image-20230411130633306](./pic/image-20230411130633306.png)
 
 ### 字典
 
@@ -303,7 +301,7 @@ print(alien_0['points']); # 根据Key 'points' 访问字典中的Value 5
 print(len(alien_0));# 字典大小(即键值对个数)
 ```
 
-![image-20230414081038504](pic\image-20230414081038504.png)
+![image-20230414081038504](./pic/image-20230414081038504.png)
 
 #### 向字典添加KV对/修改字典中的KV对
 
@@ -316,7 +314,7 @@ alien_0['y_position'] = 25; # 添加键值对 最后字典中键值对的顺序�
 print(alien_0);
 ```
 
-![image-20230414081320076](pic\image-20230414081320076.png)
+![image-20230414081320076](./pic/image-20230414081320076.png)
 
 2. 向空字典中添加KV对
 
@@ -359,7 +357,7 @@ for i in person.items(): # items()返回可遍历的KV元组数组 元组是不�
     print('元组为: ', i);
 ```
 
-![image-20230414082000448](\pic\image-20230414082000448.png)
+![image-20230414082000448](./pic/image-20230414082000448.png)
 
 2. entry遍历
 
@@ -368,7 +366,7 @@ for entry in person.items():
     print('Key = ' + str(entry[0]) + ', Value = '+ str(entry[1]));
 ```
 
-![image-20230414082103057](pic\image-20230414082103057.png)
+![image-20230414082103057](./pic/image-20230414082103057.png)
 
 3. KV遍历
 
@@ -378,7 +376,7 @@ for key, value in person.items():
     print('Value = ' + str(value));
 ```
 
-![image-20230414082142067](pic\image-20230414082142067.png)
+![image-20230414082142067](./pic/image-20230414082142067.png)
 
 #### 遍历字典的Key和Value
 
@@ -396,7 +394,7 @@ for value in set(person.values()): # 这样子就不会有重复了, 因为Set�
     print('Value = ' + str(value));
 ```
 
-![image-20230414082342644](pic\image-20230414082342644.png)
+![image-20230414082342644](./pic/image-20230414082342644.png)
 
 #### 字典和列表的嵌套
 
@@ -410,7 +408,7 @@ fruits = [fruit_1, fruit_2, fruit_3];
 print(fruits)
 ```
 
-![image-20230414082549360](pic\image-20230414082549360.png)
+![image-20230414082549360](./pic/image-20230414082549360.png)
 
 在字典中存储列表
 
@@ -422,7 +420,7 @@ pizza = {
 print(pizza);
 ```
 
-![image-20230414082657001](pic\image-20230414082657001.png)
+![image-20230414082657001](./pic/image-20230414082657001.png)
 
 在字典中存储字典
 
@@ -440,7 +438,7 @@ users = {
 print(users)
 ```
 
-![image-20230414082731952](pic\image-20230414082731952.png)
+![image-20230414082731952](./pic/image-20230414082731952.png)
 
 ### 用户输入
 
@@ -451,7 +449,7 @@ message = input('Waiting User Command.....'); # 取得用户输入键盘后, 将
 print(message + '\t' + str(type(message))); # 获取的message是str类型
 ```
 
-![image-20230414174400452](pic\image-20230414174400452.png)
+![image-20230414174400452](./pic/image-20230414174400452.png)
 
 如果需要将input()读取的输入转换为int的话, 则需要类型转换
 
@@ -463,7 +461,7 @@ print('Your age is ' + age + str(type(age))); # 这时候希望age是int型, 方
 print('Your age_int is ' + str(age_int) + str(type(age_int)));
 ```
 
-![image-20230414174527753](pic\image-20230414174527753.png)
+![image-20230414174527753](./pic/image-20230414174527753.png)
 
 变量名甚至可以为中文
 
@@ -475,7 +473,7 @@ else:
     print('年龄为: ' + str(年龄) + ', 非法');
 ```
 
-![image-20230414174630761](pic\image-20230414174630761.png)
+![image-20230414174630761](./pic/image-20230414174630761.png)
 
 ```python
 number = int(input('Even Or Odd? '));
@@ -496,7 +494,7 @@ while current_num <= 5: # 循环条件
     current_num += 1; 
 ```
 
-![image-20230414174834477](pic\image-20230414174834477.png)
+![image-20230414174834477](./pic/image-20230414174834477.png)
 
 ```python
 prompt = "\nTell me something, and I will repeat it back to you:";
@@ -552,7 +550,7 @@ for i in range(1,30):
         break;
 ```
 
-<img src="pic\image-20230414175351643.png" alt="image-20230414175351643" style="zoom: 67%;" />
+<img src="./pic/image-20230414175351643.png" alt="image-20230414175351643" style="zoom: 67%;" />
 
 #### 利用循环移动和删除列表元素
 
@@ -569,7 +567,7 @@ while unused_fruits: # 类似于Interceptor, 对列表元素进行过滤, 只留
 print(used_fruits);
 ```
 
-![image-20230414175456280](pic\image-20230414175456280.png)
+![image-20230414175456280](./pic/image-20230414175456280.png)
 
 ```python
 ### 删除列表元素
@@ -581,7 +579,7 @@ while 'apple' in fruits: # 类似于Interceptor, 对列表元素进行过滤
 print(fruits);
 ```
 
-![image-20230414175516247](pic\image-20230414175516247.png)
+![image-20230414175516247](./pic/image-20230414175516247.png)
 
 ### 函数
 
@@ -604,7 +602,7 @@ def get_pet(type, name):
 get_pet('Dog', 'Los'); # 参数位置要和函数定义的位置相同
 ```
 
-![image-20230416090113637](pic\image-20230416090113637.png)
+![image-20230416090113637](./pic/image-20230416090113637.png)
 
 2. 关键字实参
 
@@ -615,7 +613,7 @@ get_pet(name = 'Cat', type = 'AA');
 #get_pet(name = 'Cat'); # 显然不行, required argument
 ```
 
-![image-20230416090147070](pic\image-20230416090147070.png)
+![image-20230416090147070](./pic/image-20230416090147070.png)
 
 #### 默认参数
 
@@ -629,7 +627,7 @@ get_color(); # 不写实参, 则color为'RED'
 get_color('GREEN');# 写了实参, 则color为实参'GREEN'
 ```
 
-![image-20230416090306079](pic\image-20230416090306079.png)
+![image-20230416090306079](./pic/image-20230416090306079.png)
 
 #### 返回字典
 
@@ -643,7 +641,7 @@ def build_person(first_name, last_name, age = -1):
 print(build_person('Python', 'C++', -222));
 ```
 
-![image-20230416090414056](pic\image-20230416090414056.png)
+![image-20230416090414056](./pic/image-20230416090414056.png)
 
 #### 传递列表
 
@@ -658,7 +656,7 @@ greet_users(friends);
 print(friends);
 ```
 
-![image-20230416090455571](pic\image-20230416090455571.png)
+![image-20230416090455571](./pic/image-20230416090455571.png)
 
 ```python
 ### 当不想将作为参数的列表修改时 可以在传输参数时将列表的拷贝传递, 如
@@ -679,7 +677,7 @@ make_pizza('A');
 make_pizza('C', 'A', 'D');
 ```
 
-![image-20230416090704573](pic\image-20230416090704573.png)
+![image-20230416090704573](./pic/image-20230416090704573.png)
 
 2. 字典
 
@@ -695,7 +693,7 @@ print(get_info('cody', address = 'Tree', Tel = '123456')); # 这里千万不能�
 # 因为 'address' 是一个字符串, 不能对字符串赋值
 ```
 
-![image-20230416090859431](pic\image-20230416090859431.png)
+![image-20230416090859431](./pic/image-20230416090859431.png)
 
 ### 模块
 
@@ -790,7 +788,7 @@ dog.print(); # 一个类方法, 将打印实例信息
 dog.sit();
 ```
 
-![image-20230416095657698](pic\image-20230416095657698.png)
+![image-20230416095657698](./pic/image-20230416095657698.png)
 
 #### self
 
@@ -829,7 +827,7 @@ car.update_odometer(122); # 用方法实现封装, 避免直接怼实例属性�
 car.read_odometer();
 ```
 
-![image-20230416104402931](pic\image-20230416104402931.png)
+![image-20230416104402931](./pic/image-20230416104402931.png)
 
 #### 继承
 
@@ -865,7 +863,7 @@ eCar.read_odometer();
 eCar.battery.print_battery();
 ```
 
-![image-20230416104449967](pic\image-20230416104449967.png)
+![image-20230416104449967](./pic/image-20230416104449967.png)
 
 #### 重写父类方法
 
@@ -900,7 +898,7 @@ bird1 = InjuredBird('a')
 bird1.fly();
 ```
 
-![image-20230416104630603](pic\image-20230416104630603.png)
+![image-20230416104630603](./pic/image-20230416104630603.png)
 
 ### 文件
 
@@ -943,7 +941,7 @@ with open(filename) as file_object:
 #file_object.read(); # ValueError: I/O operation on closed file.
 ```
 
-![image-20230416143511523](pic\image-20230416143511523.png)
+![image-20230416143511523](./pic/image-20230416143511523.png)
 
 ```python
 ### 逐行读取文件内容
@@ -955,7 +953,7 @@ with open(filename) as file_object:
     pass;
 ```
 
-![image-20230416143702652](pic\image-20230416143702652.png)
+![image-20230416143702652](./pic/image-20230416143702652.png)
 
 ```python
 with open(filename) as file_object:
@@ -967,7 +965,7 @@ for line in lines:
     pass;
 ```
 
-![image-20230416143751681](pic\image-20230416143751681.png)
+![image-20230416143751681](./pic/image-20230416143751681.png)
 
 ```python
 pi_string = '';
@@ -979,7 +977,7 @@ print(len(pi_string));
 print(pi_string[ : 10]); # 对str切片, 只得到其小数点后八位
 ```
 
-![image-20230416143818998](pic\image-20230416143818998.png)
+![image-20230416143818998](./pic/image-20230416143818998.png)
 
 #### 写入文件
 
@@ -992,7 +990,7 @@ with open(filename, 'w') as file_object: # 若文件不存在 则首先创建文
     pass;
 ```
 
-![image-20230416143920939](pic\image-20230416143920939.png)
+![image-20230416143920939](./pic/image-20230416143920939.png)
 
 ### 异常
 
@@ -1023,7 +1021,7 @@ while True:
     pass;
 ```
 
-![image-20230416154959608](pic\image-20230416154959608.png)
+![image-20230416154959608](./pic/image-20230416154959608.png)
 
 ```python
 filename = 'alice.txt';
@@ -1043,7 +1041,7 @@ else:
     print('The file has ' + str(num_words) + ' words.');
 ```
 
-![image-20230416155055477](pic\image-20230416155055477.png)
+![image-20230416155055477](./pic/image-20230416155055477.png)
 
 ### JSON存储数据
 
@@ -1070,7 +1068,7 @@ with open(filename, 'r') as f_obj:
 print(numbers_from_file)
 ```
 
-![image-20230416155325336](H:\Python学习\pic\image-20230416155325336.png)
+![image-20230416155325336](./pic/image-20230416155325336.png)
 
 ### 代码测试
 
