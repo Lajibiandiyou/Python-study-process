@@ -26,7 +26,7 @@ def fun_void():
 fun_void();
 ```
 
-![image-20230416093634428](pic\image-20230416093634428.png)
+![image-20230416093634428](.\pic\image-20230416093634428.png)
 
 ```python
 def fun_void():
